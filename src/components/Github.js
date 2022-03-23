@@ -22,7 +22,7 @@ function Github() {
         username="Cherni-Oussama"
         blockSize={15}
         blockMargin={5}
-        theme={colourTheme}
+        color="#c084f5"
         fontSize={16}
       />
     </Row>

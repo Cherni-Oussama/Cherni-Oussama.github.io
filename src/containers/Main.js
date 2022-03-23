@@ -58,7 +58,6 @@ const Main = () => {
             <Greeting />
             <Skills />
             <About />
-            <StackProgress />
             <Education />
             <WorkExperience />
             <Projects />
