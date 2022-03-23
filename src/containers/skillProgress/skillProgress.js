@@ -5,10 +5,29 @@ import {Fade} from "react-reveal";
 import Build from "../../assets/lottie/build";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 
+import Github from "../../components/Github";
+import Techstack from "../../components/Techstack";
+import Toolstack from "../../components/Toolstack";
+
 export default function StackProgress() {
   if (techStack.viewSkillBars) {
     return (
       <Fade bottom duration={1000} distance="20px">
+      <div>
+        <h1 className="project-heading">
+          Professional <strong className="purple">Skillset </strong>
+        </h1>
+
+        <Techstack />
+
+        <h1 className="project-heading">
+          <strong className="purple">Tools</strong> I use
+        </h1>
+        <Toolstack />
+
+        <Github />
+
+        
         <div className="skills-container">
           <div className="skills-bar">
             <h1 className="skills-heading">Proficiency</h1>
@@ -88,6 +107,7 @@ export default function StackProgress() {
               />
             )}
           </div>
+        </div>
         </div>
       </Fade>
     );
