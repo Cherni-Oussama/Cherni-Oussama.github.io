@@ -55,6 +55,7 @@ const Main = () => {
         ) : (
           <>
             <Header />
+            
             <Greeting />
             <Skills />
             <About />
