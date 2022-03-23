@@ -10,6 +10,7 @@
 
 .experience-card-dark {
   position: relative;
+  margin: 0px 20px;
   background-color: $darkBackground;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   border-radius: 10px;
@@ -117,18 +118,31 @@
 }
 
 .experience-text-details {
+
   padding: 1.5rem;
+
   margin-top: 2rem;
+
 }
+
+
 
 /* Media Query */
 
+
+
 @media (max-width: 1380px) {
+
   .experience-text-role {
+
     padding-top: 0.5rem;
+
     font-size: 22px;
+
   }
+
   .experience-text-company {
+
     font-size: 22px;
   }
   .experience-text-date {

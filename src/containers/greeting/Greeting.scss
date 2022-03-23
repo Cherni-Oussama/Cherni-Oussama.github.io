@@ -10,7 +10,7 @@
   width: 90%;
   padding: 10px 10px;
   margin: 0px auto;
-  margin-top: 0rem;
+  margin-top: 2rem;
 }
 
 .greeting-main {
@@ -31,7 +31,7 @@
 }
 .button-greeting-div {
   display: flex;
-  margin-top: 20px;
+  margin: 10px 10px 10px 0px;
 }
 
 .greeting-text {
@@ -43,12 +43,13 @@
 .greeting-text-p {
   font-size: 30px;
   line-height: 40px;
+  margin-top: 1rem;
+
 }
 
 .greeting-image-div > img {
   max-width: 90%;
   padding: 20px 10px;
-
   height: auto;
 }
 

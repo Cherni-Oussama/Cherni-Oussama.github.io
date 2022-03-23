@@ -55,17 +55,11 @@ const Main = () => {
         ) : (
           <>
             <Header />
-            
             <Greeting />
             <Skills />
             <About />
-            <Education />
             <WorkExperience />
-            <Projects />
-            <StartupProject />
-            <Achievement />
-            <Blogs />
-            <Talks />
+
             <Profile />
             <Footer />
             <ScrollToTopButton />
