@@ -33,5 +33,10 @@
   .rowrow {
       display: flex;
       flex-direction: row !important;
+      justify-content: center !important;
   }
 }
+
+.rowrow {
+      justify-content: center !important;
+  }
