@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useContext}  from "react";
 import "./About.scss";
 
 import { Container, Row, Col } from "react-bootstrap";
@@ -9,19 +9,23 @@ import Toolstack from "../../components/Toolstack";
 import laptopImg from "../../assets/images/airbnbLogo.png";
 import Particle from "../../components/Particle"
 import Aboutcard from "../../components/AboutCard"
+import StyleContext from "../../contexts/StyleContext";
 
 function About() {
+  const {isDark} = useContext(StyleContext);
+
   return (
     <div>
 
     <Container fluid= "md" className="about-section">
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+        <h1 className={isDark ? "dark-mode project-heading" : "project-heading"}>
+          Professional 
+          <strong className="purple">Skillset </strong>
         </h1>
 
         <Techstack />
 
-        <h1 className="project-heading">
+        <h1 className={isDark ? "dark-mode project-heading" : "project-heading"}>
           <strong className="purple">Tools</strong> I use
         </h1>
 

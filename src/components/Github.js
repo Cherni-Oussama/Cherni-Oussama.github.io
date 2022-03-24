@@ -1,8 +1,11 @@
-import React from "react";
+import React, {useContext}  from "react";
 import GitHubCalendar from "react-github-calendar";
 import { Row } from "react-bootstrap";
+import StyleContext from "../contexts/StyleContext";
 
 function Github() {
+    const {isDark} = useContext(StyleContext);
+
     const colourTheme = {
     background: "transparent",
     text: "#ffffff",
@@ -15,7 +18,7 @@ function Github() {
 
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-      <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
+      <h1 className={isDark ? "dark-mode project-heading" : "project-heading"} style={{ paddingBottom: "20px" }}>
         Days I <strong className="purple">Code</strong>
       </h1>
       <GitHubCalendar
