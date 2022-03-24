@@ -174,15 +174,17 @@ const techStack2 = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [{
-        role: "Deep Learning Engineer",
+        role: "Software Engineer",
       company: "FREELANCE",
-      companylogo: require("./assets/images/freelancer-1.svg"),
-      date: "May 2017 – May 2018",
+      place : emoji(" 🌎 "),
+      companylogo: require("./assets/images/freelancer.png"),
+      date: "Jun 2022 – PRESENT",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
     },
     {
       role: "Deep learning Intern",
       company: "Positive Thinking Company",
+      place : emoji(" 🇫🇷 "),
       companylogo: require("./assets/images/PTC_Logo.png"),
       date: "April 2021 – December 2021",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
@@ -190,6 +192,7 @@ const workExperiences = {
     {
       role: "Software Engineer Intern",
       company: "Airbnb",
+      place : emoji(" 🇹🇳 "),
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "Jan 2015 – Sep 2015",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
@@ -248,34 +251,26 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Deep Neural Networks with PyTorch",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "",
+      image: require("./assets/images/coursera.png"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://www.coursera.org/account/accomplishments/certificate/XHRNGCYSJ99M"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Natural Language Processing in TensorFlow",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./assets/images/deep.webp"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/verify/SGGAKRHJYUYX"
         }
       ]
     },
@@ -291,7 +286,20 @@ const achievementSection = {
           url: "https://pakistan-olx-1.firebaseapp.com/"
         }
       ]
+    },
+        {
+      title: "PWA Web App Developer",
+      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      image: require("./assets/images/pwaLogo.webp"),
+      footerLink: [
+        {name: "Certification", url: ""},
+        {
+          name: "Final Project",
+          url: "https://pakistan-olx-1.firebaseapp.com/"
+        }
+      ]
     }
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -299,22 +307,38 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Projects",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH.",
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "",
+      title: "Traffic Speed Radar",
+      techs: "AndroidStudio, Java, Python, OpenCV, Yolo",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Develop a mobile application for detection, tracking and speed calculation of vehicles on a highway."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "",
+      title: "Fake News Detector",
+      techs: "Selenium, BeautifullSoup, Php, SVM, DT, SQL",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Chrome extension to spot fake news and provide alternatives from trusted sources."
+    },
+    {
+      url: "",
+      title: "Road traffic multi-agent simulation",
+      techs: "Java, Jade",
+      description:
+        "Develop a tool to test road management strategies before deploying them in an operational context."
+    },
+    {
+      url: "",
+      title: "Addicted ? No more",
+      techs: "AndroidStudio, Tensorflow, Dialogflow, flask",
+      description:
+        "Develop a mobile application based on a Chatbot/VoiceBot to detect the rate of addiction (addiction to Tobacco, Alcohol, etc.) among addicts and propose strategies to overcome it."
     }
   ],
   display: true // Set false to hide this section, defaults to true

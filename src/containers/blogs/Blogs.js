@@ -70,6 +70,7 @@ export default function Blogs() {
                       isDark={isDark}
                       blog={{
                         url: blog.url,
+                        techs : blog.techs,
                         image: blog.image,
                         title: blog.title,
                         description: blog.description

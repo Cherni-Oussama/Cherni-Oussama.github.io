@@ -59,7 +59,7 @@ const Main = () => {
             <Skills />
             <About />
             <WorkExperience />
-
+            <Blogs />
             <Profile />
             <Footer />
             <ScrollToTopButton />
