@@ -12,11 +12,13 @@ import Aboutcard from "../../components/AboutCard"
 
 function About() {
   return (
+    <div>
 
     <Container fluid= "md" className="about-section">
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
+
         <Techstack />
 
         <h1 className="project-heading">
@@ -28,6 +30,7 @@ function About() {
         <Github />
 
     </Container>
+    </div>
   );
 }
 
