@@ -19,8 +19,7 @@ function About() {
 
     <Container fluid= "md" className="about-section">
         <h1 className={isDark ? "dark-mode project-heading" : "project-heading"}>
-          Professional 
-          <strong className="purple">Skillset </strong>
+          Professional <strong className="purple"> Skillset </strong>
         </h1>
 
         <Techstack />
