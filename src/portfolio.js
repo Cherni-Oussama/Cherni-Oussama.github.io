@@ -49,15 +49,23 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY MACHINE LEARNING ENGINEER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY MACHINE LEARNING ENGINEER WHO WANTS TO EXPLORE EVERY TECH STACK. I am experienced in machine learning, supervised and unsupervised algorithms and use data visualization techniques to present the results. I use SQL, R, Python, QlikView and Tableau for my data projects.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Design machine learning systems."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Select appropriate datasets and data representation methods."
+    ),
+    emoji("⚡ Research and implement appropriate ML algorithms and tools."),
+    emoji(
+      "⚡ Train and retrain systems when necessary."
+    ),
+      emoji(
+      "⚡ Developing machine learning apps according to client requirements."
     )
+
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon

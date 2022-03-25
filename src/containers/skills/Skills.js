@@ -41,9 +41,22 @@ export default function Skills() {
                   : "subTitle skills-text-subtitle"
               }
             >
-              {skillsSection.subTitle}
+              I am a software developer with a great passion for learning and practicing in Machine Learning and Software development. 
             </p>
-            <SoftwareSkill />
+            <p
+              className={
+                isDark
+                  ? "dark-mode subTitle skills-text-subtitle"
+                  : "subTitle skills-text-subtitle"
+              }
+            >
+              I have significant work experience in a corporate environment. 
+              You can checkout my self projects on my Github. 
+              In addition to that, my plus point is that I have a good sense of code quality, code base maintenance, and DevOps. 
+              I always ensure the high valued service to my clients and my past jobs are evidence. 
+              I only take jobs that I love and when I do the work I love, its better than others. 
+            </p>
+
             <div>
               {skillsSection.skills.map((skills, i) => {
                 return (
