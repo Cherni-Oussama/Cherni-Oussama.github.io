@@ -199,9 +199,9 @@ const workExperiences = {
     },
     {
       role: "Software Engineer Intern",
-      company: "Airbnb",
+      company: "SFM Technologies",
       place : emoji(" 🇹🇳 "),
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/sfmlogo.png"),
       date: "Jan 2015 – Sep 2015",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
     }
@@ -220,7 +220,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: " This is a collection of my personal projects.",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
@@ -317,9 +317,16 @@ const achievementSection = {
 const blogSection = {
   title: "Projects",
   subtitle:
-    "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH.",
+    " This is a collection of my personal projects.",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
+    {
+      url: "",
+      title: "Anomalies Detection",
+      techs: "Python, PyTorch, GAN, Self Supervised Learning",
+      description:
+        "Designing an approach based on self-supervised learning to detect anomalies in the context of Small Data."
+    },
     {
       url: "",
       title: "Traffic Speed Radar",
@@ -333,6 +340,13 @@ const blogSection = {
       techs: "Selenium, BeautifullSoup, Php, SVM, DT, SQL",
       description:
         "Chrome extension to spot fake news and provide alternatives from trusted sources."
+    },
+    {
+      url: "",
+      title: "Humain Pose Estimation",
+      techs: "Python, Jupyter, AndroidStudion",
+      description:
+        "Develop a mobile application that represents the orientation of a person in a graphical format."
     },
     {
       url: "",

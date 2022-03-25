@@ -26,7 +26,8 @@ export default function BlogCard({blog, isDark}) {
           <p className={isDark ? "small-dark small" : "small"}>
             {blog.description}
           </p>
-          <p className="techs">
+          <p className={
+            isDark ? "dark-mode techs" : "techs"}>
             {blog.techs}
           </p>
           <div className="go-corner">
