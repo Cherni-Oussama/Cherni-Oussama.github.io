@@ -15,7 +15,7 @@ function About() {
   const {isDark} = useContext(StyleContext);
 
   return (
-    <div>
+    <div id="Tools">
 
     <Container fluid= "md" className="about-section">
         <h1 className={isDark ? "dark-mode project-heading" : "project-heading"}>
