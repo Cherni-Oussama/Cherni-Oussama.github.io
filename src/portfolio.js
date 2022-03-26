@@ -40,6 +40,7 @@ const socialMediaLinks = {
   facebook: "https://www.facebook.com/cherni.oussama.31/",
   medium: "",
   stackoverflow: "https://stackoverflow.com/users/14394138/oussama-cherni",
+  youtube : "https://www.youtube.com/channel/UCXlcu65_zdNXPWwckRmo7dw",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -402,7 +403,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+216-21099280",
+  number: "+216 21099280",
   email_address: "oussamacherni1996@gmail.com"
 };
 
