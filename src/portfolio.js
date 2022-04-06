@@ -188,7 +188,7 @@ const workExperiences = {
       place : emoji(" 🌎 "),
       companylogo: require("./assets/images/freelancer.png"),
       date: "Jun 2022 – PRESENT",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+      desc: ""
     },
     {
       role: "Deep learning Intern",
@@ -196,15 +196,23 @@ const workExperiences = {
       place : emoji(" 🇫🇷 "),
       companylogo: require("./assets/images/PTC_Logo.png"),
       date: "April 2021 – December 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: ""
+    },
+    {
+      role: "Software Engineer Intern",
+      company: "Le Bon Choix",
+      place : emoji(" 🇹🇳 "),
+      companylogo: require("./assets/images/BNCHOIX_Logo.png"),
+      date: "Jul 2020 – Sep 2020",
+      desc: ""
     },
     {
       role: "Software Engineer Intern",
       company: "SFM Technologies",
       place : emoji(" 🇹🇳 "),
       companylogo: require("./assets/images/sfmlogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+      date: "Jul 2019 – Sep 2019",
+      desc: ""
     }
   ]
 };
